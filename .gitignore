@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+venv/
+mlenv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore VS Code workspace settings (optional)
+.vscode/
+
+# Ignore Mac and Linux hidden files
+.DS_Store
+.idea/
+
+# Ignore Jupyter Notebook autosave files (optional)
+*.nbconvert.ipynb
+
+# Ignore test or temp folders (optional)
+tmp/
+temp/
